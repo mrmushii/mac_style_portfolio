@@ -1,10 +1,9 @@
-import Navbar from '#components/Navbar'
-import React from 'react'
-
+import { Navbar, Welcom } from "./components";
 const App = () => {
   return (
     <main>
       <Navbar/>
+      <Welcom/>
     </main>
   )
 }
